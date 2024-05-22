@@ -89,6 +89,7 @@
                         (not (sensor_active))
                         (not (instrument_on ?i))
                         (data_transmitted ?r ?l ?i)
+                        (at ?r ?l)
                         )
         :effect (not (stable ?r))
     

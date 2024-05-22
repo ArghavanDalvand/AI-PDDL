@@ -11,6 +11,7 @@
         (requird loc1 radar)
         (requird loc2 camera)
         (requird loc3 spectrometer)
+        (requird loc3 radar)
         
         
     )
@@ -20,6 +21,8 @@
         (data_transmitted mr1 loc1 radar)
         (data_transmitted mr1 loc2 camera)
         (data_transmitted mr1 loc3 spectrometer)
+        (data_transmitted mr1 loc3 radar)
+        (at mr1 loc1)
         
         
         
