@@ -13,7 +13,7 @@
         (data_transmitted ?r - rover ?l - location ?i - instrument)
         (task_completed ?r - rover ?l - location ?i - instrument)
         (requird ?l - location ?i - instrument)
-        (visit ?l)
+        (visit ?l - location)
         (sensor_active)
     )
     
